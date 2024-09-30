@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import GetData from './GetData';
+import Products from './Products'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <div>
- <GetData/>
+ <Products/>
    </div>
   )   
 }
